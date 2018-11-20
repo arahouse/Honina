@@ -1,0 +1,166 @@
+@import "vars";
+@import "fonts";
+@import "libs";
+
+
+::placeholder {
+	color: #666;
+}
+
+::selection {
+	/*background-color: $accent;*/
+	color: #fff;
+}
+/*font-family: 'Oswald', sans-serif;*/
+/*font-family: 'Open Sans', sans-serif;*/
+/*font-family: 'Forum', cursive;*/
+
+body {
+	font-size: 16px;
+	min-width: 320px;
+	position: relative;
+	line-height: 1.65;
+	font-family: $default-font;
+	overflow-x: hidden;
+	color: $text;
+	input, textarea {
+		border: #666 1px solid;
+		outline: none;
+		&:focus:required:invalid {
+			border-color: red;
+		}
+		&:required:valid {
+			border-color: green;
+		}
+	}
+}
+.img-responsive {
+	display: block;
+	max-width: 100%;
+	height: auto;
+	&.img-width {
+		width: 100%;
+	}
+}
+.text-center {
+	text-align: center;
+}
+.h1 {
+	font-family: 'Oswald', sans-serif;
+	font-weight: 200;
+	font-size: 3.125em;
+	text-transform: uppercase;
+	line-height: 1.5em;
+	padding: 195px 0 50px 0;
+    margin: 0;
+}
+.h1 .light {
+	font-size: 1.4em;
+}
+.h1 .bold {
+	font-size: 1.84em;
+	color: #26b4e8;
+	font-weight: 600;
+}
+.h2 {
+	font-family: 'Oswald', sans-serif;
+	font-size: 64px;
+	font-weight: 200;
+    text-transform: uppercase;
+    margin-bottom: 50px;
+}
+.h2 .bold {
+	color: #26b4e8;
+    font-weight: 600;
+}
+.h3 {
+  font-family: 'Forum', cursive;
+  font-size: 26px;
+  text-transform: uppercase;
+  margin-bottom: 20px;
+}
+.h3 span {
+  color: #26b4e8;
+}
+
+header {
+	background: url(../img/index/main_screen_bg.jpg) no-repeat 50%;
+	-webkit-background-size: cover !important;
+	background-size: cover !important;
+	width: auto;
+    height: 892px;
+}
+header .thesis {
+    padding-bottom: 45px;
+    font-size: 1em;
+    margin: 0;
+}
+.typical_button {
+	padding: 22px 30px;
+	font-family: 'Oswald', sans-serif;
+	font-weight: 600;
+	text-transform: uppercase;
+	font-size: 18px;
+	color: #fff;
+	background-color: #26b4e8;
+	border-radius: 5px;
+	border-bottom: 4px solid #1f85ab;
+}
+.typical_button:hover {
+	background-color: #2782b6;
+	border-bottom: 4px solid #1f5c83;
+	-webkit-transition: 1s;
+	-moz-transition: 1s;
+	-ms-transition: 1s;
+	-o-transition: 1s;
+	transition: 1s;
+}
+section {
+  padding: 130px 0 100px 0;
+}
+
+.photo {
+  border: 10px solid #fff;
+  border-radius: 50%;
+  box-shadow: 6px 14px 10px rgba(0,0,0,0.1);
+  margin-bottom: 30px;
+}
+.step {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 400;
+  font-style: italic;
+  font-size: 14px;
+  margin-bottom: 32px;
+
+}
+.scince_theme {
+  font-size: 14px;
+  margin: 0;
+}
+.compat {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 400;
+  font-style: italic;
+  font-size: 19px;
+  margin-bottom: 52px;
+}
+.because {}
+
+.how_to_get {
+  background: url(../img/index/screen-03-bg.jpg) no-repeat 50%;
+  -webkit-background-size: cover !important;
+  background-size: cover !important;
+  width: auto;
+  height: 822px;
+}
+
+.icon_wrap {
+  width: 156px;
+  height: 156px;
+  background: url(../img/icons/icon-bg.png) no-repeat;
+  }
+.icon {
+
+}
+
+@import "media"; // Always at the end
