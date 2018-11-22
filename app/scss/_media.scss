@@ -108,6 +108,9 @@
     padding: 11px 66px 10px;
     font-size: 16px;
   }
+  .contacts .h3 {
+    font-size: 19px;
+  }
 }
 
 // ≤768px   /*0.48*/
@@ -204,6 +207,25 @@
     padding: 11px 66px 10px;
     font-size: 16px;
   }
+   .questions .call_form .textarea_block {
+    height: auto;
+    min-height: auto;
+  }
+  section.articles {
+    padding-top: 60px;
+    padding-bottom: 57px;
+  }
+  .articles .articles_wrap .date {
+    text-align: center;
+  }
+  .contacts .h3 {
+    margin-left: 0;
+    text-align: left;
+  }
+  .contacts .phone_wrap {
+    margin-bottom: 30px;
+  }
+
 }
 
 // ≤576px /*0.38*/
@@ -279,6 +301,10 @@
   .investigate .cost .price_wrap .to_pay {
     padding: 10px 55px 10px;
     font-size: 14px;
+  }
+  .questions .form-group .call_submit {
+    font-size: 16px;
+    padding: 13px 48px;
   }
 }
 
