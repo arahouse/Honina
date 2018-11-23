@@ -4,7 +4,6 @@
 <head>
 
     <meta charset="utf-8">
-    <!-- <base href="/"> -->
 
     <title>Honina</title>
     <meta name="description" content="Honina">
@@ -12,21 +11,16 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
 
-    <!-- Template Basic Images Start -->
     <meta property="og:image" content="path/to/image.jpg">
     <link rel="icon" href="img/favicon/favicon.ico">
     <link rel="apple-touch-icon" sizes="180x180" href="img/favicon/apple-touch-icon-180x180.png">
-    <!-- Template Basic Images End -->
 
-    <!-- Custom Browsers Color Start -->
     <meta name="theme-color" content="#000">
-    <!-- Custom Browsers Color End -->
 
     <link href="https://fonts.googleapis.com/css?family=Oswald:200,400,700" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,400i" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Forum" rel="stylesheet">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
-
 
     <link rel="stylesheet" href="css/main.min.css">
 
@@ -51,7 +45,9 @@
         </div>
         <div class="row">
             <div class="col-md-4 col">
-                <div class="btn typical_button" data-toggle="modal" data-target=".modal-call">Получить консультацию он-лайн</div>
+                <div class="btn typical_button" data-toggle="modal" data-target=".modal-call">Получить консультацию
+                    он-лайн
+                </div>
             </div>
         </div>
     </div>
@@ -126,7 +122,9 @@
                     <div class="h3 icon_text">Вы получаете рекомендации</div>
                 </div>
                 <div class="col-sm-12 text-center">
-                    <div class="btn typical_button" data-toggle="modal" data-target=".modal-call">Получить консультацию он-лайн</div>
+                    <div class="btn typical_button" data-toggle="modal" data-target=".modal-call">Получить консультацию
+                        он-лайн
+                    </div>
                 </div>
             </div>
         </div>
@@ -171,7 +169,6 @@
                             <li class="text">парам, у которых в течение года или более не наступила беременность;</li>
                             <li class="text">при наличии выкидышей или замершей беременности в анамнезе;</li>
                             <li class="text">при неудачных попытках ЭКО.</li>
-
                         </ul>
                     </div>
                     <div class="text_block_2">
@@ -191,14 +188,18 @@
                                 <div class="price_wrap">
                                     <h3 class="h3"><span>первичная</span><br>консультация</h3>
                                     <p class="price">1800 <sup>рублей</sup></p>
-                                    <div class="btn typical_button to_pay" data-toggle="modal" data-target=".modal-call">Оплатить</div>
+                                    <div class="btn typical_button to_pay" data-toggle="modal"
+                                         data-target=".modal-call">Оплатить
+                                    </div>
                                 </div>
                             </div>
                             <div class="col-md-6 col-sm-8 col-s-9 col-xs-9 col-11">
                                 <div class="price_wrap price_wrap_2">
                                     <h3 class="h3"><span>вторичная</span><br>консультация</h3>
                                     <p class="price">1400 <sup>рублей</sup></p>
-                                    <div class="btn typical_button to_pay" data-toggle="modal" data-target=".modal-call">Оплатить</div>
+                                    <div class="btn typical_button to_pay" data-toggle="modal"
+                                         data-target=".modal-call">Оплатить
+                                    </div>
                                 </div>
                             </div>
                         </div>
@@ -211,13 +212,12 @@
         <form class="call_form" action="/send_message.php">
             <div class="container">
                 <h2 class="h2">Остались <span class="bold">вопросы?</span></h2>
+                <div class="callback_loading"></div>
+                <div class="success-message">Спасибо, мы ответим вам в ближайшее время.</div>
+                <div class="error-message">Извините, что-то пошло не так. Попробуйте ещё раз.</div>
                 <div class="row">
                     <div class="col-md-4 col-12">
-                        <div class="callback_loading"></div>
-                        <div class="success-message">Спасибо за ваш вопрос!<br>
-                            Мы свяжемся с вами в ближайшее время.
-                        </div>
-                        <div class="error-message">Извините, что-то пошло не так. Попробуйте ещё раз.</div>
+
                         <div class="form-group">
                             <input type="text" name="call_form_name" placeholder="Имя" required/>
                         </div>
@@ -229,12 +229,12 @@
                                    required="">
                         </div>
                     </div>
-                    <div class="col-md-8 col-12 textarea_block">
+                    <div class="col-md-8 col-12 textarea_wrap">
                         <div class="form-group">
                             <textarea name="call_form_message" placeholder="Вопрос" rows="4" required></textarea>
                         </div>
                     </div>
-                    <div class="col-md-12 text-center">
+                    <div class="col-md-12 button_wrap">
                         <div class="g-recaptcha" data-sitekey="6LeIxAcTAAAAAJcZVRqyHh71UMIEGNQ_MXjiZKhI"></div>
                         <div class="form-group">
                             <input type="submit" class="btn typical-button call_submit" value="Отправить"/>
@@ -249,17 +249,17 @@
             <h2 class="h2">статьи</h2>
             <div class="row justify-content-center">
                 <div class="col-md-6">
-                    <div class="articles_wrap articles_wrap_1">
+                    <div id="article_1" class="articles_wrap articles_wrap_1">
                         <p class="date">27.03.2018</p>
-                        <h3 class="h3">Пилотный проект перехода «СУХИЕ НОГИ», г. Москва</h3>
+                        <h3 class="h3" data-toggle="modal" data-target="#article-modal">Пилотный проект перехода
+                            «СУХИЕ НОГИ», г. Москва</h3>
                         <p class="text">В январе 2018 года ЛОММЕТА завершила работы над Пилотным проектом перехода
                             «СУХИЕ НОГИ» от станции метро «Партизанская» до станции МЦК «Измайловский парк» в г. Москве.
                             Период от эскизного проектирования до сдачи объекта Заказчику составил 60 дней.</p>
                     </div>
-
                     <div class="articles_wrap articles_wrap_2">
                         <p class="date">28.03.2018</p>
-                        <h3 class="h3">Заголовок статьи</h3>
+                        <h3 class="h3" data-toggle="modal" data-target="#article-modal">Заголовок статьи</h3>
                         <p class="text">Разнообразный и богатый опыт выбранный нами инновационный путь играет важную
                             роль в формировании новых предложений! Соображения высшего порядка, а также сложившаяся
                             структура организации требует определения...</p>
@@ -268,7 +268,7 @@
                 <div class="col-md-6">
                     <div class="articles_wrap articles_wrap_3">
                         <p class="date">29.03.2018</p>
-                        <h3 class="h3">Заголовок статьи</h3>
+                        <h3 class="h3" data-toggle="modal" data-target="#article-modal">Заголовок статьи</h3>
                         <p class="text">Текст рыба
                             Повседневная практика показывает, что реализация намеченного плана развития способствует
                             повышению актуальности позиций, занимаемых участниками в отношении поставленных задач!
@@ -276,7 +276,7 @@
                     </div>
                     <div class="articles_wrap articles_wrap_4">
                         <p class="date">30.03.2018</p>
-                        <h3 class="h3">Заголовок статьи</h3>
+                        <h3 class="h3" data-toggle="modal" data-target="#article-modal">Заголовок статьи</h3>
                         <p class="text">Дорогие друзья, реализация намеченного плана развития представляет собой
                             интересный эксперимент проверки форм воздействия. Таким образом, социально-экономическое
                             развитие способствует повышению актуальности...</p>
@@ -285,11 +285,11 @@
                 <div class="col-md-12">
                     <nav class="nav justify-content-center" aria-label="nav">
                         <ul class="pagination">
-                            <li class="page-item"><a class="page-link" href="#">1</a></li>
-                            <li class="page-item"><a class="page-link" href="#">2</a></li>
-                            <li class="page-item"><a class="page-link" href="#">3</a></li>
-                            <li class="page-item"><a class="page-link" href="#">4</a></li>
-                            <li class="page-item"><a class="page-link" href="#">5</a></li>
+                            <li class="page-item"><a class="page-link" href="#article_1">1</a></li>
+                            <li class="page-item"><a class="page-link" href="#article_1">2</a></li>
+                            <li class="page-item"><a class="page-link" href="#article_1">3</a></li>
+                            <li class="page-item"><a class="page-link" href="#article_1">4</a></li>
+                            <li class="page-item"><a class="page-link" href="#article_1">5</a></li>
                         </ul>
                     </nav>
                 </div>
@@ -307,12 +307,12 @@
                     <p class="phone"><span>+7 (383) 303-03-03</span><br>(единая справочная - пн-вс 8:00-20:00)</p>
                     <p class="phone">Прием ведется в клинике «Пасман»<br>Дзержинского проспект, 1/1 - 12 офис; 3 этаж
                     </p>
-                    <a href="#">Реквизиты для оплаты</a>
+                    <a href="files/requisites.pdf">Реквизиты для оплаты</a>
                 </div>
             </div>
             <div class="col-md-7">
                 <div class="map">
-                    <img src="../img/index/map.png" alt="">
+                    <img src="img/index/map.jpg" alt="">
                 </div>
             </div>
         </div>
@@ -328,10 +328,9 @@
                     voluptatibus. Adipisci minima qui sint voluptatem. Amet autem dolorem error fugit ipsum quis
                     quisquam recusandae similique veritatis voluptatem.
                 </p>
-
                 <div class="callback_loading"></div>
                 <div class="success-message">Спасибо за проявленный интерес!<br>
-                    Мы свяжемся с вами в ближайшее время.
+                    Мы ответим вам в ближайшее время.
                 </div>
                 <div class="error-message">Извините, что-то пошло не так. Попробуйте ещё раз.</div>
                 <form class="call_form">
@@ -345,11 +344,27 @@
                     <div class="form-group">
                         <input type="submit" class="call_submit" value="Отправить">
                     </div>
-
-<!--                    <p class="call_privacy-policy">Нажимая на кнопку, вы даете согласие на обработку персональных данных
-                        и соглашаетесь c <a href="#" target="_blank">политикой конфиденциальности</a>
-                    </p>-->
                 </form>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="modal fade" id="article-modal" tabindex="-1" role="dialog" aria-labelledby="article-modalTitle"
+     aria-hidden="true">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="article-modalLongTitle">Modal title</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+            <div class="modal-body">
+                ...
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
             </div>
         </div>
     </div>
@@ -357,9 +372,7 @@
 
 <script src='https://www.google.com/recaptcha/api.js?hl=ru'></script>
 
-<script src="js/scripts.min.js"></script>
-
-<?php foreach ($_POST as $key => $value) { echo '<p><strong>' . $key.':</strong> '.$value.'</p>'; } ?>
+<script src="js/scripts.min.js" defer></script>
 
 </body>
 </html>
