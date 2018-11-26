@@ -539,9 +539,9 @@ section.articles {
 
 .contacts {
   .map_wrap {
-    .map {
-      width: 650px;
-      height: 400px;
+      .map {
+        overflow: hidden;
+        width: 100%;
     }
   }
 }
