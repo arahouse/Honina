@@ -6,11 +6,6 @@
   color: #666;
 }
 
-::selection {
-  /*background-color: $accent;*/
-  color: #fff;
-}
-
 /*font-family: 'Oswald', sans-serif;*/
 /*font-family: 'Open Sans', sans-serif;*/
 /*font-family: 'Forum', cursive;*/
@@ -198,12 +193,12 @@ section {
   background-image: url(../img/icons/icon-003.png);
 }
 
-.how_to_get .fa-angle-double-down {
+/*.how_to_get .fa-angle-double-down {
   display: none;
   font-size: 64px;
   color: #ccc;
   position: absolute;
-}
+}*/
 
 .how_to_get .fa-angle-double-right {
   font-size: 64px;
@@ -383,10 +378,7 @@ section {
   //max-width: 100%;
 }
 
-/*.questions label {
-  font-weight: 400;
-  margin-left: 5px;
-}*/
+
 .questions .call_form .typical-button {
   outline: none;
   border: 0;
@@ -440,7 +432,6 @@ section.articles {
   color: #26b4e8;
   text-decoration: underline;
   margin-bottom: 16px;
-
 }
 
 .articles .articles_wrap .text {
@@ -490,124 +481,75 @@ section.articles {
   left: 0;
 }
 
-.contacts .map img {
-  max-width: 100%;
-}
+.contacts {
+  .map_wrap {
+    display: flex;
+    align-content: center;
+    .map {
+      display: flex;
+      align-content: center;
+      }
+    }
+  }
 
-.contacts .phone_wrap .phone {
-  font-family: 'Open Sans', sans-serif;
-  font-size: 15px;
-  color: #fff;
-  margin-bottom: 20px;
-}
+  .contacts .phone_wrap .phone {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 15px;
+    color: #fff;
+    margin-bottom: 20px;
+  }
 
-.contacts .phone_wrap p:nth-child(2) {
-  margin-bottom: 10px;
-}
+  .contacts .phone_wrap p:nth-child(2) {
+    margin-bottom: 10px;
+  }
 
-.contacts .phone_wrap .phone span {
-  font-family: 'Oswald', sans-serif;
-  font-size: 22px;
-  font-weight: 200;
-}
+  .contacts .phone_wrap .phone span {
+    font-family: 'Oswald', sans-serif;
+    font-size: 22px;
+    font-weight: 200;
+  }
 
-.contacts a {
-  color: #26b4e8;
-}
+  .contacts a {
+    color: #26b4e8;
+    text-decoration: none;
+  }
+  .contacts .phone_wrap .phone_sub_wrap a:first-child {
+    margin-bottom: 10px;
+  }
+  .contacts .phone_wrap .phone_sub_wrap a {
+    margin-bottom: 0;
+  }
 
-.contacts .phone_wrap a:active,
-.contacts .phone_wrap a:hover {
-  color: #1f85ab;
-}
 
-.phone_wrap {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
+  .contacts .phone_wrap a:active,
+  .contacts .phone_wrap a:hover {
+    color: #1f85ab;
+  }
 
-/*MODALS*/
+  .phone_wrap {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    .phone_sub_wrap {
+      display: flex;
+      flex-direction: column;
 
-/*.modal-call .close-block {
-  background: url(/images/icons/close.png) no-repeat;
-  width: 18px;
-  height: 18px;
-  right: 20px;
-  top: 25px;
-  cursor: pointer;
-  z-index: 11;
-  position: absolute;
-}*/
+    }
+  }
 
-.modal-call .modal-content {
-  -webkit-border-radius: 0;
-  -moz-border-radius: 0;
-  border-radius: 0;
-}
 
-.modal-call .modal-content .modal-body {
-  padding: 40px 45px;
-}
+  /*MODALS*/
+  .modal {
+    .btn-close {
+      border: none;
+      background-color: #26b4e8;
+      border-bottom: 2px solid #1f85ab;
+    }
+    .btn-close:hover {
+      background-color: #1f85ab;
+    }
+  }
 
-.modal-call .modal-content .modal-body .call_header {
-  font-size: 2em;
-  font-weight: 600;
-  margin-bottom: 15px;
-}
 
-.modal-call .modal-content .modal-body .call_text {
-  font-size: 0.888888em;
-  margin-bottom: 25px;
-}
-
-.modal-call .modal-content .modal-body .error-message,
-.modal-call .modal-content .modal-body .success-message {
-  font-size: 1em;
-  margin-top: 40px;
-  display: none;
-}
-
-/*.modal-call .modal-content .modal-body .callback_loading {
-  display: none;
-  text-align: center;
-  margin: 50px auto 0;
-  background: url(/images/icons/loading.gif) no-repeat;
-  width: 100px;
-  height: 99px;
-  background-size: contain;
-}*/
-
-.modal-call .modal-content .modal-body .call_form .form-group {
-  margin-bottom: 25px;
-}
-
-.modal-call .modal-content .modal-body .call_form .form-group input {
-  background: transparent;
-  border: 1px solid #c7c7c7;
-  outline: none !important;
-  color: #000;
-  font-size: 16px;
-  padding: 18px 20px;
-  width: 100%;
-  border-radius: 5px;
-  -moz-border-radius: 5px;
-  -webkit-border-radius: 5px;
-}
-
-.modal-call .modal-content .modal-body .call_form .form-group .call_submit {
-  background: #26b4e8;
-  color: #fff;
-  padding: 10px 0;
-  font-weight: 700;
-}
-
-.modal-call .modal-content .modal-body .call_privacy-policy {
-  font-size: 0.888888em;
-}
-
-.modal-call .modal-content .modal-body .call_privacy-policy a {
-  text-decoration: none;
-  color: #5139b2;
-}
-
-@import "media"; // Always at the end
+  @import "media";
+// Always at the end

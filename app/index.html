@@ -45,7 +45,8 @@
         </div>
         <div class="row">
             <div class="col-md-4 col">
-                <div class="btn typical_button" data-toggle="modal" data-target=".modal-call">Получить консультацию
+                <div class="btn typical_button" data-toggle="modal" data-target="#consultationModal">Получить
+                    консультацию
                     он-лайн
                 </div>
             </div>
@@ -103,15 +104,15 @@
                 консультацию он-лайн?</h2>
             <div class="row justify-content-center">
                 <div class="col-md-4">
-                    <i class="fa fa-angle-double-right" aria-hidden="true"></i>
-                    <i class="fa fa-angle-double-down fadd_1" aria-hidden="true"></i>
+                    <i class="fa fa-angle-double-right fadd_1" aria-hidden="true"></i>
+                    <!--        <i class="fa fa-angle-double-down fadd_1" aria-hidden="true"></i>-->
                     <div class="icon_wrap icon_wrap_1">
                     </div>
                     <div class="h3 icon_text">Вы отправляете необходимые анализы по почте</div>
                 </div>
                 <div class="col-md-4">
-                    <i class="fa fa-angle-double-right" aria-hidden="true"></i>
-                    <i class="fa fa-angle-double-down fadd_2" aria-hidden="true"></i>
+                    <i class="fa fa-angle-double-right fadd_2" aria-hidden="true"></i>
+                    <!--          <i class="fa fa-angle-double-down fadd_2" aria-hidden="true"></i>-->
                     <div class="icon_wrap icon_wrap_2">
                     </div>
                     <div class="h3 icon_text">заявка рассматривается врачом</div>
@@ -122,7 +123,8 @@
                     <div class="h3 icon_text">Вы получаете рекомендации</div>
                 </div>
                 <div class="col-sm-12 text-center">
-                    <div class="btn typical_button" data-toggle="modal" data-target=".modal-call">Получить консультацию
+                    <div class="btn typical_button" data-toggle="modal" data-target="#consultationModal">Получить
+                        консультацию
                         он-лайн
                     </div>
                 </div>
@@ -189,7 +191,7 @@
                                     <h3 class="h3"><span>первичная</span><br>консультация</h3>
                                     <p class="price">1800 <sup>рублей</sup></p>
                                     <div class="btn typical_button to_pay" data-toggle="modal"
-                                         data-target=".modal-call">Оплатить
+                                         data-target="#toPayModal">Оплатить
                                     </div>
                                 </div>
                             </div>
@@ -198,7 +200,7 @@
                                     <h3 class="h3"><span>вторичная</span><br>консультация</h3>
                                     <p class="price">1400 <sup>рублей</sup></p>
                                     <div class="btn typical_button to_pay" data-toggle="modal"
-                                         data-target=".modal-call">Оплатить
+                                         data-target="#toPayModal">Оплатить
                                     </div>
                                 </div>
                             </div>
@@ -302,49 +304,82 @@
     <div class="container">
         <div class="row justify-content-between align-content-center">
             <div class="col-md-5 phone_wrap">
-                <div>
-                    <h3 class="h3">immune_therapy@mail.ru</h3>
-                    <p class="phone"><span>+7 (383) 303-03-03</span><br>(единая справочная - пн-вс 8:00-20:00)</p>
+                <div class="phone_sub_wrap">
+                    <a class="h3" href="mailto:immune_therapy@mail.ru" target="_blank">immune_therapy@mail.ru</a>
+                    <a href="tel:+73833030303" class="phone"><span>+7 (383) 303-03-03</span></a>
+                    <p class="phone">(единая справочная - пн-вс 8:00-20:00)</p>
                     <p class="phone">Прием ведется в клинике «Пасман»<br>Дзержинского проспект, 1/1 - 12 офис; 3 этаж
                     </p>
                     <a href="files/requisites.pdf">Реквизиты для оплаты</a>
                 </div>
             </div>
-            <div class="col-md-7">
+            <div class="col-md-7 map_wrap">
                 <div class="map">
-                    <img src="img/index/map.jpg" alt="">
+                    <a class="dg-widget-link"
+                       href="http://2gis.ru/novosibirsk/firm/141265769634288/center/82.94918060302736,55.04398305782399/zoom/15?utm_medium=widget-source&utm_campaign=firmsonmap&utm_source=bigMap">Посмотреть
+                        на карте Новосибирска</a>
+                    <div class="dg-widget-link">
+                        <a href="http://2gis.ru/novosibirsk/firm/141265769634288/photos/141265769634288/center/82.94918060302736,55.04398305782399/zoom/17?utm_medium=widget-source&utm_campaign=firmsonmap&utm_source=photos">Фотографии
+                            компании</a>
+                    </div>
+                    <div class="dg-widget-link">
+                        <a href="http://2gis.ru/novosibirsk/center/82.949308,55.04382/zoom/15/routeTab/rsType/bus/to/82.949308,55.04382╎Клиника Пасман, лечебно-диагностический центр?utm_medium=widget-source&utm_campaign=firmsonmap&utm_source=route">Найти
+                            проезд до Клиника Пасман, лечебно-диагностический центр</a>
+                    </div>
+                    <script charset="utf-8" src="https://widgets.2gis.com/js/DGWidgetLoader.js">
+                    </script>
+                    <script charset="utf-8">new DGWidgetLoader({
+                        "width": 650,
+                        "height": 400,
+                        "borderColor": "#a3a3a3",
+                        "pos": {"lat": 55.04398305782399, "lon": 82.94918060302736, "zoom": 15},
+                        "opt": {"city": "novosibirsk"},
+                        "org": [{"id": "141265769634288"}]
+                    });</script>
+                    <noscript style="color:#c00;font-size:16px;font-weight:bold;">Виджет карты использует JavaScript.
+                        Включите его в настройках вашего браузера.
+                    </noscript>
                 </div>
             </div>
         </div>
     </div>
 </footer>
-<div class="modal modal-call fade" role="dialog">
-    <div class="modal-dialog">
+
+<div class="modal fade" id="consultationModal" tabindex="-1" role="dialog" aria-labelledby="consultationModalLabel"
+     aria-hidden="true">
+    <div class="modal-dialog" role="document">
         <div class="modal-content">
-            <div class="close-block" data-dismiss="modal" aria-label="Close"></div>
-            <div class="modal-body text-center">
-                <p class="call_header">Закажите звонок</p>
-                <p class="call_text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloribus sit tempore ut
-                    voluptatibus. Adipisci minima qui sint voluptatem. Amet autem dolorem error fugit ipsum quis
-                    quisquam recusandae similique veritatis voluptatem.
-                </p>
-                <div class="callback_loading"></div>
-                <div class="success-message">Спасибо за проявленный интерес!<br>
-                    Мы ответим вам в ближайшее время.
-                </div>
-                <div class="error-message">Извините, что-то пошло не так. Попробуйте ещё раз.</div>
-                <form class="call_form">
-                    <div class="form-group">
-                        <input type="text" name="call_form_name" placeholder="Имя" required="">
-                    </div>
-                    <div class="form-group">
-                        <input type="text" name="call_form_phone" data-mask="999-999-99-99" placeholder="Телефон"
-                               required="">
-                    </div>
-                    <div class="form-group">
-                        <input type="submit" class="call_submit" value="Отправить">
-                    </div>
-                </form>
+            <div class="modal-header">
+                <h5 class="modal-title" id="consultationModalLabel">Получить консультацию</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+            <div class="modal-body">
+                ...
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-secondary btn-close" data-dismiss="modal">Закрыть</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="modal fade" id="toPayModal" tabindex="-1" role="dialog" aria-labelledby="toPayModalLabel"
+     aria-hidden="true">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="toPayModalLabel">Как оплатить</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+            <div class="modal-body">
+                ...
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-secondary btn-close" data-dismiss="modal">Закрыть</button>
             </div>
         </div>
     </div>
@@ -355,7 +390,7 @@
     <div class="modal-dialog" role="document">
         <div class="modal-content">
             <div class="modal-header">
-                <h5 class="modal-title" id="article-modalLongTitle">Modal title</h5>
+                <h5 class="modal-title" id="article-modalLongTitle">Название статьи</h5>
                 <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                     <span aria-hidden="true">&times;</span>
                 </button>
@@ -364,14 +399,14 @@
                 ...
             </div>
             <div class="modal-footer">
-                <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                <button type="button" class="btn btn-secondary btn-close" data-dismiss="modal">Закрыть</button>
             </div>
         </div>
     </div>
 </div>
 
 <script src='https://www.google.com/recaptcha/api.js?hl=ru'></script>
-
+<script src="https://maps.api.2gis.ru/2.0/loader.js?pkg=full"></script>
 <script src="js/scripts.min.js" defer></script>
 
 </body>

@@ -15,15 +15,15 @@
     <session id="-1530474798">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="7" />
+          <entry key="project.closed" value="9" />
           <entry key="project.open.time.0" value="1" />
-          <entry key="project.open.time.15" value="2" />
+          <entry key="project.open.time.15" value="3" />
           <entry key="project.open.time.16" value="1" />
           <entry key="project.open.time.23" value="1" />
           <entry key="project.open.time.24" value="1" />
           <entry key="project.open.time.25" value="1" />
           <entry key="project.open.time.8" value="1" />
-          <entry key="project.opened" value="8" />
+          <entry key="project.opened" value="9" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
@@ -31,7 +31,7 @@
           <entry key="css" value="2" />
           <entry key="html" value="2" />
           <entry key="jpg" value="4" />
-          <entry key="js" value="13" />
+          <entry key="js" value="14" />
           <entry key="php" value="5" />
           <entry key="png" value="3" />
           <entry key="rnc" value="2" />
@@ -44,7 +44,7 @@
           <entry key="CSS" value="2" />
           <entry key="HTML" value="2" />
           <entry key="Image" value="7" />
-          <entry key="JavaScript" value="13" />
+          <entry key="JavaScript" value="14" />
           <entry key="PLAIN_TEXT" value="5" />
           <entry key="RNG Compact" value="2" />
           <entry key="SCSS" value="31" />
@@ -53,19 +53,19 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="html" value="3647" />
-          <entry key="js" value="83" />
+          <entry key="html" value="3892" />
+          <entry key="js" value="121" />
           <entry key="php" value="26" />
           <entry key="sass" value="3" />
-          <entry key="scss" value="4214" />
+          <entry key="scss" value="4622" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="HTML" value="3647" />
-          <entry key="JavaScript" value="83" />
+          <entry key="HTML" value="3892" />
+          <entry key="JavaScript" value="121" />
           <entry key="PLAIN_TEXT" value="26" />
-          <entry key="SCSS" value="4214" />
+          <entry key="SCSS" value="4622" />
           <entry key="Sass" value="3" />
         </counts>
       </usages-collector>
@@ -109,52 +109,26 @@
     </session>
   </component>
   <component name="FileEditorManager">
-    <splitter split-orientation="horizontal" split-proportion="0.65578306">
-      <split-first>
-        <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-          <file pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/app/index.html">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="442">
-                  <caret line="310" column="22" lean-forward="true" selection-start-line="310" selection-start-column="22" selection-end-line="310" selection-end-column="22" />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/app/send_message.php">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="374">
-                  <caret line="17" selection-start-line="17" selection-end-line="17" />
-                </state>
-              </provider>
-            </entry>
-          </file>
-        </leaf>
-      </split-first>
-      <split-second>
-        <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-          <file pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/app/scss/main.scss">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="606">
-                  <caret line="332" selection-start-line="332" selection-end-line="333" selection-end-column="14" />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/app/scss/_media.scss">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="1358">
-                  <caret line="335" column="22" selection-start-line="335" selection-start-column="22" selection-end-line="335" selection-end-column="22" />
-                </state>
-              </provider>
-            </entry>
-          </file>
-        </leaf>
-      </split-second>
-    </splitter>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/app/scss/main.scss">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="927">
+              <caret line="408" column="25" lean-forward="true" selection-start-line="408" selection-start-column="25" selection-end-line="408" selection-end-column="25" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/scss/_media.scss">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-3531">
+              <caret line="117" selection-start-line="117" selection-end-line="117" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
@@ -177,6 +151,10 @@
       <find>.g-recaptcha</find>
       <find>success-message</find>
       <find>submit</find>
+      <find>.fadd</find>
+      <find>down</find>
+      <find>column</find>
+      <find>map</find>
     </findStrings>
   </component>
   <component name="IdeDocumentHistory">
@@ -187,10 +165,10 @@
         <option value="$PROJECT_DIR$/app/send_message.php" />
         <option value="$PROJECT_DIR$/gulpfile.js" />
         <option value="$PROJECT_DIR$/app/scss/_vars.scss" />
-        <option value="$PROJECT_DIR$/app/scss/_media.scss" />
         <option value="$PROJECT_DIR$/app/js/common.js" />
-        <option value="$PROJECT_DIR$/app/scss/main.scss" />
         <option value="$PROJECT_DIR$/app/index.html" />
+        <option value="$PROJECT_DIR$/app/scss/_media.scss" />
+        <option value="$PROJECT_DIR$/app/scss/main.scss" />
       </list>
     </option>
   </component>
@@ -322,20 +300,20 @@
       <workItem from="1542853055129" duration="28395000" />
       <workItem from="1542886195273" duration="414000" />
       <workItem from="1542886684500" duration="5505000" />
-      <workItem from="1542939824605" duration="14228000" />
+      <workItem from="1542939824605" duration="23016000" />
+      <workItem from="1543200331945" duration="1488000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="119390000" />
+    <option name="totallyTimeSpent" value="129666000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1052" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.68176913" visible="true" weight="0.16145833" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.6796116" visible="true" weight="0.21979167" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info id="Gulp" order="2" sideWeight="0.31823084" side_tool="true" visible="true" weight="0.16145833" />
+      <window_info id="Gulp" order="2" sideWeight="0.32038835" side_tool="true" visible="true" weight="0.21979167" />
       <window_info id="npm" order="3" sideWeight="0.5005525" side_tool="true" weight="0.18914647" />
       <window_info id="Favorites" order="4" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -364,9 +342,7 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/app/img/preview.jpg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
+    <entry file="file://$PROJECT_DIR$/app/img/preview.jpg" />
     <entry file="file://$PROJECT_DIR$/app/js/scripts.min.js">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -496,17 +472,34 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/scss/_media.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1358">
-          <caret line="335" column="22" selection-start-line="335" selection-start-column="22" selection-end-line="335" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/gulpfile.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="336">
           <caret line="36" column="28" lean-forward="true" selection-start-line="36" selection-start-column="28" selection-end-line="36" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/scss/_media.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-3531">
+          <caret line="117" selection-start-line="117" selection-end-line="117" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="306" column="44" lean-forward="true" selection-start-line="306" selection-start-column="44" selection-end-line="306" selection-end-column="44" />
+          <folding>
+            <element signature="n#style#0;n#noscript#0;n#div#0;n#div#1;n#div#0;n#div#0;n#footer#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/js/common.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="531">
+          <caret line="36" selection-start-line="36" selection-end-line="43" selection-end-column="13" />
         </state>
       </provider>
     </entry>
@@ -519,22 +512,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/scss/main.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="606">
-          <caret line="332" selection-start-line="332" selection-end-line="333" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/js/common.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="311">
-          <caret line="29" column="30" lean-forward="true" selection-start-line="29" selection-start-column="30" selection-end-line="29" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="442">
-          <caret line="310" column="22" lean-forward="true" selection-start-line="310" selection-start-column="22" selection-end-line="310" selection-end-column="22" />
+        <state relative-caret-position="927">
+          <caret line="408" column="25" lean-forward="true" selection-start-line="408" selection-start-column="25" selection-end-line="408" selection-end-column="25" />
         </state>
       </provider>
     </entry>
